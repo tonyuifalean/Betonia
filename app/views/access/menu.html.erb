@@ -1,0 +1,35 @@
+
+<div id="container">
+
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:1">
+         <%= image_tag('823880_25781191.jpg') %></div>
+
+<%if !flash[:notice].blank? %>
+   <div class="notice">
+   <%= flash[:notice] %>
+   </div>
+<% end %>
+
+
+<div id="g_text1" style="position:absolute; overflow:hidden; left:520px; top:7px; width:330px; height:111px; z-index:3">
+<div class="wpmd">
+<div align=center><font color="#333333" face="HelveticaNeue ThinCond" class="ws48">B e t o n i a</font></div>
+<div align=center><font color="#333333" face="Century Gothic" class="ws20">idei din beton</font></div>
+</div></div>
+
+<div class="menu">
+  <h2>Meniu Admin</h2>
+  <div class="identity">Logat ca: * <%= session[:username]%> * </div>
+  <ul>
+    <li><%= link_to("Betonia", :controller => 'new', :action => 'betonia') %></li>
+    <li><%= link_to("Despre", :controller => 'new', :action => 'despre') %></li>
+    <li><%= link_to("Proiecte & idei", :controller => 'new', :action => 'proiecte') %></li>
+	<li><%= link_to("Direct de pe raft", :controller => 'new', :action => 'raft') %></li>
+    <li><%= link_to("Parteneri", :controller => 'new', :action => 'parteneri') %></li>
+	<li><%= link_to("Mesaje primite", :controller => 'new', :action => 'show') %></li><br/>
+    <li><%= link_to("Logout", :action => 'logout') %></li>
+  </ul> 
+</div>
+
+</div>
+

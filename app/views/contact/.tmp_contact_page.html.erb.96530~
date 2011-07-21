@@ -1,0 +1,12 @@
+<% @page_title = "Contact Page" %>
+<% @page_info = "Contact" %>
+ 
+<div class="contactf">
+	<h2>Countact us</h2>
+	<%form_for(@contact, :validate => true, :url => {:action => 'create'}) do |f|%>
+    <%= render(:partial => "form", :locals => {:f => f}) %>
+	<div class="form-buttons">
+		<%=submit_tag("Send")%>
+	</div>
+	<%end%>
+</div>		

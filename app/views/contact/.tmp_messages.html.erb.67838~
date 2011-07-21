@@ -1,0 +1,30 @@
+<% @page_title = "Messages" %>
+<% @page_info = "Messages" %>
+
+
+<div class="message list">
+	<h2>Messages</h2>
+	
+	<table class="messages" summary="Filtered messages list">
+		<tr class="message header">
+			<th>No.</th>
+			<th>First name</th>
+			<th>Last name</th>
+			<th>Email</th>
+			<th>Phone</th>
+			<th>Message</th>
+		</tr>
+		<% @contacts.each do |contact|%>
+		<tr>
+			<td><%= contact.id %></td>
+			<td><%= contact.first_name %></td>
+			<td><%= contact.last_name %></td>
+	        <td><%= contact.email %></td>
+			<td><%= contact.phone %></td>
+     		<td><%= contact.qm %></td> 
+		</tr>
+    <% end %>
+	</table>
+</div>
+
+	

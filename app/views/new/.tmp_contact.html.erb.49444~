@@ -1,0 +1,78 @@
+<div id="container">
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:0">
+           <%= image_tag('916560_12627587.jpg') %></div>
+
+<div id="g_shape1" style="position:absolute; overflow:hidden; left:0px; top:133px; width:823px; height:25px; z-index:1">
+           <%= image_tag('shape87972906.gif') %></div>
+
+
+<%= render( :partial => "menu") %>
+<%= render( :partial => "title") %>
+
+<div id="text1" style="position:absolute; overflow:hidden; left:306px; top:186px; width:185px; height:20px; z-index:4">
+<div class="wpmd">
+<div><font face="Century Gothic" class="ws11">CM Data srl</font></div>
+</div></div>
+
+<div id="text2" style="position:absolute; overflow:hidden; left:532px; top:221px; width:249px; height:101px; z-index:7">
+<div class="wpmd">
+<div><font face="Century Gothic" class="ws8">CIF: RO26977778</font></div>
+<div><font face="Century Gothic" class="ws8">Nr.Reg.Com.: J12/845/2010</font></div>
+<div><font face="Century Gothic" class="ws8"><BR></font></div>
+<div><font face="Century Gothic" class="ws8">ING Bank - Agentia Cluj</font></div>
+<div><font face="Century Gothic" class="ws8">IBAN RON:&nbsp; RO52 INGB 0000 9999 0197 3925</font></div>
+<div><font face="Century Gothic" class="ws8">SWIFT:&nbsp; INGBROBU </font></div>
+</div></div>
+
+<div id="text3" style="position:absolute; overflow:hidden; left:306px; top:221px; width:195px; height:99px; z-index:8">
+<div class="wpmd">
+<div><font face="Century Gothic" class="ws8">str. Campului&nbsp;&nbsp; nr. 105</font></div>
+<div><font face="Century Gothic" class="ws8">Cluj-Napoca, 400656</font></div>
+<div><font face="Century Gothic" class="ws8">Romania</font></div>
+<div><font face="Century Gothic" class="ws8"><BR></font></div>
+<div><font face="Century Gothic" class="ws8">Tel.:&nbsp; +40 371 079 424</font></div>
+<div><font face="Century Gothic" class="ws8">Fax:&nbsp; +40 364 142 173</font></div>
+<div><font face="Century Gothic" class="ws8"><BR></font></div>
+</div></div>
+
+
+<div id="text8" style="position:absolute; overflow:hidden; left:306px; top:351px; width:460px; height:20px; z-index:16">
+<div class="wpmd">
+<div><font face="Century Gothic"><I>Puteti sa ne contactati si prin intermediul formularului de mai jos.</I></font></div>
+</div></div>
+
+<div class="contactf">
+	
+	<%form_for(@contactus, :validate => true, :url => {:action => 'create'}) do |f|%>
+    <%= render(:partial => "form", :locals => {:f => f}) %>
+	<div class="form-buttons">
+		<%=submit_tag("Trimiteti")%>
+	</div>
+	<%end%>
+</div>		
+<div id="text4" style="position:absolute; overflow:hidden; left:306px; top:386px; width:60px; height:25px; z-index:10">
+<div class="wpmd">
+<div><font face="Century Gothic">nume:</font></div>
+</div></div>
+
+<div id="text5" style="position:absolute; overflow:hidden; left:306px; top:416px; width:60px; height:25px; z-index:11">
+<div class="wpmd">
+<div><font face="Century Gothic">telefon:</font></div>
+</div></div>
+
+<div id="text6" style="position:absolute; overflow:hidden; left:306px; top:446px; width:60px; height:25px; z-index:12">
+<div class="wpmd">
+<div><font face="Century Gothic">e-mail:</font></div>
+</div></div>
+
+<div id="text7" style="position:absolute; overflow:hidden; left:306px; top:476px; width:60px; height:25px; z-index:14">
+<div class="wpmd">
+<div><font face="Century Gothic">mesaj:</font></div>
+</div></div>
+
+<div id="text9" style="position:absolute; overflow:hidden; left:367px; top:559px; width:201px; height:17px; z-index:18">
+<div class="wpmd">
+<div><font face="Century Gothic" class="ws8">*** toate campurile sunt obligatorii</font></div>
+</div></div>
+
+</div>

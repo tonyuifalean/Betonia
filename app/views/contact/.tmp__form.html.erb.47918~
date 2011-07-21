@@ -1,0 +1,23 @@
+<table summary="Contact form fields">
+	    <tr>
+	    	<th>First name</th>
+			<td><%= f.text_field(:first_name)%></td>
+	    </tr>
+        <tr>
+        	<th>Last name</th>
+			<td><%= f.text_field(:last_name)%></td>
+        </tr>
+		<tr>
+        	<th>Email address</th>
+			<td><%= f.text_field(:email)%></td>
+        </tr>
+		<tr>
+        	<th>Phone number</th>
+			<td><%= f.text_field(:phone)%></td>
+        </tr>
+		<tr>
+        	<th>Message</th>
+			<td><%= f.text_field(:qm)%></td>
+        </tr>
+</table>
+

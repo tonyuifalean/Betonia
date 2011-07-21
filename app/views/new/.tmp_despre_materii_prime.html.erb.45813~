@@ -1,0 +1,81 @@
+<div id="container">
+
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:0">
+         <%= image_tag('618462_86085382.jpg') %></div>
+
+<div id="g_shape1" style="position:absolute; overflow:hidden; left:0px; top:133px; width:823px; height:25px; z-index:2">
+           <%= image_tag('shape87972906.gif') %></div>
+
+<%= render(:partial => "title")%>
+<%= render(:partial => "menu")%>
+<%= render(:partial => "titledespre") %>
+
+<div id="example1" style="position:absolute; overflow:hidden; left: 300px; top: 280px; width: 540px; height: 320px; z-index:3">
+			<div id="slides">
+				<div class="slides_container">
+					<div class="slide1">
+		                <%= image_tag('despre1.jpg') %>     
+						<div class="caption1" style="bottom:0">
+							<p>creativitate</p>
+						</div>
+					</div>
+					
+					<div class="slide1">
+		                <%= image_tag('despre2.jpg') %>     
+						<div class="caption4" style="bottom:0">
+							<p>câteva idei</p>
+						</div>
+					</div>
+			
+				    <div class="slide1">
+		                <%= image_tag('despre3.jpg') %>     
+						<div class="caption1" style="bottom:0">
+							<p>lianți</p>
+						</div>
+					</div>
+					<div class="slide1">
+		                <%= image_tag('despre4.jpg') %>     
+						<div class="caption1" style="bottom:0">
+							<p>agregate</p>
+						</div>
+					</div>
+				    <div class="slide1">
+		                <%= image_tag('despre5.jpg') %>     
+						<div class="caption1" style="bottom:0">
+							<p>chimicale</p>
+						</div>
+					</div>
+					<div class="slide1">
+		                <%= image_tag('despre6.jpg') %>     
+						<div class="caption1" style="bottom:0">
+							<p>pigmenți</p>
+						</div>
+					</div>
+					<div class="slide1">
+		                <%= image_tag('despre7.jpg') %>     
+						<div class="caption1" style="bottom:0">
+							<p>câteva inserții</p>
+						</div>
+					</div>
+					<div class="slide1">
+		                <%= image_tag('despre8.jpg') %>     
+						<div class="caption1" style="bottom:0">
+							<p>câteva inserții</p>
+						</div>
+					</div>
+					<div class="slide1">
+		                <%= image_tag('despre9.jpg') %>     
+						<div class="caption1" style="bottom:0">
+							<p>câteva inserții</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+

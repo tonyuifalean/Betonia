@@ -1,0 +1,170 @@
+!SESSION 2011-07-02 11:01:45.514 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application com.aptana.ide.desktop.integration.Application
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application com.aptana.ide.desktop.integration.Application
+
+!ENTRY org.eclipse.ui.workbench 2 0 2011-07-02 11:02:14.550
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-07-02 11:02:14.550
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.RenameAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1cd2197),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.RenameAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1cd2197),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-07-02 11:02:14.550
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.MoveFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1cd2197),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.MoveFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1cd2197),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2011-07-02 11:02:14.550
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1cd2197),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@1cd2197),sourcePriority=16384)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:16.503
+!MESSAGE Failed to retrieve default libraries for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:16.914
+!MESSAGE Failed to retrieve default libraries for C:\Users\Tony\AppData\Local\Aptana RadRails\plugins\org.jruby_1.2.0.9419p2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:27.178
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2011-07-02 11:02:27.184
+!MESSAGE Starting: C:\Ruby192\bin\ruby.exe -I C:\Ruby192\work\iunie\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- C:\Ruby192\bin\gem -v
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:27.211
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2011-07-02 11:02:27.213
+!MESSAGE Starting: C:\Ruby192\bin\ruby.exe -I C:\Ruby192\work\iunie\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- C:\Ruby192\bin\gem sources -l
+
+!ENTRY com.aptana.ide.update 4 0 2011-07-02 11:02:31.310
+!MESSAGE download.aptana.com
+!STACK 0
+java.net.UnknownHostException: download.aptana.com
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URLConnection.getContent(Unknown Source)
+	at java.net.URL.getContent(Unknown Source)
+	at com.aptana.ide.internal.update.manager.AbstractPluginManager$1.run(AbstractPluginManager.java:121)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:35.615
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2011-07-02 11:02:35.616
+!MESSAGE Starting: C:\Ruby192\bin\ruby.exe -I C:\Ruby192\work\iunie\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush -rrdt_stream_sync.rb -- C:\Ruby192\bin\gem query -d
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:40.391
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:40.502
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:40.718
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:40.832
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:40.944
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:41.156
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:41.372
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:41.484
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY com.aptana.ide.update 4 0 2011-07-02 11:02:41.713
+!MESSAGE download.aptana.com
+!STACK 0
+java.net.UnknownHostException: download.aptana.com
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.URLConnection.getContent(Unknown Source)
+	at java.net.URL.getContent(Unknown Source)
+	at com.aptana.ide.internal.update.manager.AbstractPluginManager$1.run(AbstractPluginManager.java:121)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:41.751
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:42.064
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:42.374
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2011-07-02 11:02:42.631
+!MESSAGE Failed to retrieve platform for C:\Ruby192
+
+!ENTRY com.aptana.ide.core 4 0 2011-07-02 11:06:26.106
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] An error occurred while shutting down the database
+!STACK 0
+java.sql.SQLException: No suitable driver found for jdbc:derby:aptanaDB;shutdown=true
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.shutdown(AptanaDB.java:320)
+	at com.aptana.ide.core.AptanaCorePlugin.stop(AptanaCorePlugin.java:73)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:474)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:546)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1098)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:593)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:261)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:216)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:685)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:583)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:409)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)

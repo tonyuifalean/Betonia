@@ -1,0 +1,114 @@
+html {height: 100%; width: 100%;}
+body {width: 960px; min-width: 960px; height: 100%; margin: 0; padding-left: 203px;
+      font: 14 px Verdana, Lucida, Arial, Helvetica, sans-serif; }
+p, td, ul, ol, li, dl, dt, dd {
+	  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+img {border: 1px; }
+table { border-collapse: collapse; }
+table tr th, table tr td {width: 960px; vertical-align: top; text-align: left; padding: 5px;}
+a, a:visited { color: #993120; }
+a:hover {}
+
+.clear { clear: both; }
+.center { text-align: center; }	  
+.login form {margin: 50px 100px; border-radius:25px border: 3px solid #0000FF;}
+.notice {position:absolute; overflow:hidden; left:214px; top:158px; width: 607px; height: 1.1em; padding: 0.3em; text-align: center; background: #FF0000; color: #FFFFFF; }
+.menu {position:absolute; overflow:hidden; left:370px; top:200px; width:300px; height:400px; font color="#333333" face="HelveticaNeue ThinCond" class="ws48"; z-index:2}
+.menu .identity { text-align: center; }
+.menu ul { margin: 50px 70px; list-style: none; }
+.menu ul li { margin-bottom: 1em; }
+table.messages{
+	border-colapse: collapse;
+
+}
+
+.messages td, .messages th{
+	padding: 4px 10px;
+	border: solid 1px #AAA;
+}
+
+.messages th .current {
+  padding-right: 12px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.messages th .asc {
+  background-image: url(/images/up_arrow.gif);
+}
+
+.messages th .desc {
+  background-image: url(/images/down_arrow.gif);
+}
+
+
+/*Structure*/
+#header { height: 4em; padding-top: 1em; text-align: center;
+          background: #0000FF; color: #00CC99; }
+#header h1 { float:inherit; padding: 0; }
+#main {  }
+#navigation { float: left; width: 180px; min-height: 480px; padding: 10px;
+              background: #94B26F; color: #4C2516; }
+
+.contactf form {padding: 348px 270px; float: left; margin: 30px 100px; 
+                width: 600px; height: 0px; font-size: 13px;font-family: Arial,Helvetica,Sans-Serif;
+				font-style: normal; font-weight: normal;}
+
+.field_with_errors {  
+  display:inline-block; 
+   }  
+   
+ .field_with_errors .message {  
+  color: #D00;  
+  padding-left: 5px;  
+  font-size: 13px;
+  font-family: Arial,Helvetica,Sans-Serif;
+  font-style: normal; 
+  font-weight: normal;  
+ } 
+
+ 
+.form-buttons {float: inherit; margin: 0em 10em;}
+div#container
+{
+	position:relative;
+	width: 827px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:left; 
+}
+body {text-align:center;margin:0}
+#container h2 {text-align: center; }
+/*----------Text Styles----------*/
+.ws6 {font-size: 8px;}
+.ws7 {font-size: 9.3px;}
+.ws8 {font-size: 11px;}
+.ws9 {font-size: 12px;}
+.ws10 {font-size: 13px;}
+.ws11 {font-size: 15px;}
+.ws12 {font-size: 16px;}
+.ws14 {font-size: 19px;}
+.ws16 {font-size: 21px;}
+.ws18 {font-size: 24px;}
+.ws20 {font-size: 27px;}
+.ws22 {font-size: 29px;}
+.ws24 {font-size: 32px;}
+.ws26 {font-size: 35px;}
+.ws28 {font-size: 37px;}
+.ws36 {font-size: 48px;}
+.ws48 {font-size: 64px;}
+.ws72 {font-size: 96px;}
+.wpmd {font-size: 13px;font-family: Arial,Helvetica,Sans-Serif;font-style: normal;font-weight: normal;}
+/*----------Para Styles----------*/
+DIV,UL,OL /* Left */
+{
+ margin-top: 0px;
+ margin-bottom: 0px;
+}
+
+a.style1:link{color:#333333;text-decoration: none;}
+a.style1:visited{color:#333333;text-decoration: none;}
+a.style1:hover{color:#FF0000;}
+a.style1:active{color:#333333;text-decoration: none;}

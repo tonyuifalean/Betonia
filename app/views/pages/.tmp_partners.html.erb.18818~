@@ -1,0 +1,5 @@
+<% @page_title = "Partners Page" %>
+<% @page_info = "Partners" %>
+
+</br>
+<%= link_to("For informations, contact us", {:action => "contact_page", :controller => 'contact'}, :class => 'action contact') %>

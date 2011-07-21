@@ -1,0 +1,42 @@
+<div id="container">
+
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:0">
+         <%= image_tag('618462_86085382.jpg') %></div>
+
+<div id="g_shape1" style="position:absolute; overflow:hidden; left:0px; top:133px; width:823px; height:25px; z-index:2">
+           <%= image_tag('shape87972906.gif') %></div>
+
+<%= render(:partial => "title")%>
+<%= render(:partial => "menu")%>
+<%= render(:partial => "title") %>
+
+<div id="flash1" style="position:absolute; overflow:hidden; left:277px; top:201px; width:500px; height:400px; z-index:5">
+<script type="text/javascript">
+AC_RunFlashContent("id","flash1","width","500","height","400","quality","high","autoplay","true","loop","true","wmode","window","codebase","http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab","pluginspage","http://www.macromedia.com/go/getflashplayer","src","images/despre.swf");
+</script>
+<noscript>
+<object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" width=500 height=400>
+<param name="movie" value="images/despre.swf">
+<param name="quality" value="high">
+<param name="loop" value="true">
+<param name="wmode" value="window">
+<param name="autoplay" value="true">
+<!--[if !IE]>-->
+<object data="images/despre.swf" width="500" height="400" type="application/x-shockwave-flash">
+<param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer">
+<param name="quality" value="high">
+<param name="loop" value="true">
+<param name="wmode" value="window">
+<param name="autoplay" value="true">
+</object>
+<!--<![endif]-->
+</object>
+</noscript>
+</div>
+
+</div>
+
+
+
+
+

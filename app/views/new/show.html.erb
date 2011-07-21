@@ -1,0 +1,55 @@
+
+<div id="container">
+
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:1">
+         <%= image_tag('823880_25781191.jpg') %></div>
+
+
+<div id="g_text1" style="position:absolute; overflow:hidden; left:520px; top:7px; width:330px; height:111px; z-index:3">
+<div class="wpmd">
+<div align=center><font color="#333333" face="HelveticaNeue ThinCond" class="ws48">B e t o n i a</font></div>
+<div align=center><font color="#333333" face="Century Gothic" class="ws20">idei din beton</font></div>
+</div></div>
+<div id="message list" style="position:absolute; overflow:hidden; left:245px; top:170px; width:200px; height:100px; z-index:4">
+<%= form_tag new_path, :method => 'get', :id => "contact_search" do %>
+  <%= hidden_field_tag :direction, params[:direction]%>
+  <%= hidden_field_tag :sort, params[:sort]%>
+  <p>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search", :nume => nil %>
+  </p>
+<% end %>
+</div>
+
+<div id="message list" style="position:absolute; overflow:hidden; left:245px; top:270px; width:600px; height:300px; z-index:2">
+	<h2>Messages</h2>
+	
+	<table class="messages" summary="Filtered messages list">
+		<tr class="message header">
+			<th><%= sortable "nume", "Nume" %></th>
+			<th><%= sortable "telefon", "Telefon" %></th>
+			<th><%= sortable "email", "Email" %></th>
+			<th>Message</th>
+		</tr>
+		<% @contactus.each do |contactus|%>
+		<tr>
+			<td><%= contactus.nume %></td>
+			<td><%= contactus.telefon %></td>
+	        <td><%= contactus.email %></td>
+     		<td><%= contactus.mesaj %></td> 
+		</tr>
+    <% end %>
+	</table><br/><br/>
+	<div id='willp'><%= will_paginate @contactus %></div>
+</div>
+
+
+
+
+</div>
+
+
+
+
+
+	

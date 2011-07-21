@@ -1,0 +1,57 @@
+<div id="container">
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:0">
+        <%= image_tag('645667_18248803.jpg') %></div>
+
+<div id="g_shape1" style="position:absolute; overflow:hidden; left:0px; top:133px; width:823px; height:25px; z-index:2">
+         <%= image_tag('shape87972906.gif') %></div>
+		 
+<%= render( :partial => "title") %>		 
+<%= render( :partial => "menu")%>
+<%= render( :partial => "titleproiecte") %>
+
+<div id="g_text4" style="position:absolute; overflow:hidden; left:245px; top:166px; width:575px; height:17px; z-index:4">
+<div class="wpmd">
+<div><font face="Century Gothic"><a href="proiecte_blaturi" title="Blaturi de bucatarie" target="_parent" class="style1">blaturi de bucatarie</a></font>
+     <font face="Century Gothic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+	 <font face="Century Gothic"><a href="proiecte_placaje" title="Placaje" target="_parent" class="style1">placaje</a></font>
+	 <font face="Century Gothic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+	 <font face="Century Gothic"><a href="proiecte_mostre" title="Mostre" target="_parent" class="style1">mostre</a></font>
+	 <font face="Century Gothic">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </font>
+	 <font face="Century Gothic"><a href="proiecte_aveti_o_idee" title="Aveti o idee?" target="_parent" class="style1">aveti o idee?</a></font></div>
+</div></div>
+
+<div id="flash1" style="position:absolute; overflow:hidden; left:315px; top:240px; width:400px; height:340px; z-index:5">
+<script type="text/javascript">
+AC_RunFlashContent("id","flash1","width","400","height","340","quality","high","autoplay","true","loop","true","wmode","window","codebase","http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab","pluginspage","http://www.macromedia.com/go/getflashplayer","src","images/mostre.swf");
+</script>
+<noscript>
+<object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" width=400 height=340>
+<param name="movie" value="images/mostre.swf">
+<param name="quality" value="high">
+<param name="loop" value="true">
+<param name="wmode" value="window">
+<param name="autoplay" value="true">
+<!--[if !IE]>-->
+<object data="images/mostre.swf" width="400" height="340" type="application/x-shockwave-flash">
+<param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer">
+<param name="quality" value="high">
+<param name="loop" value="true">
+<param name="wmode" value="window">
+<param name="autoplay" value="true">
+</object>
+<!--<![endif]-->
+</object>
+</noscript>
+</div>
+
+<div id="text1" style="position:absolute; overflow:hidden; left:321px; top:582px; width:388px; height:19px; z-index:6">
+<div class="wpmd">
+<div><font face="Century Gothic" class="ws8">!!! culorile sunt aproximative, pentru detalii va rugam sa ne contactati</font></div>
+</div></div>
+
+<div id="text2" style="position:absolute; overflow:hidden; left:243px; top:204px; width:569px; height:35px; z-index:7">
+<div class="wpmd">
+<div align=justify><font face="Century Gothic" class="ws8">Pentru a va face o idee asupra posibilitatilor de combinare a culorilor si texturilor va rugam sa derulati galeria noastra de mostre. In cazul in care aveti o alta </font><font face="Century Gothic" class="ws8"><I>idee din beton</I></font><font face="Century Gothic" class="ws8">, nu&nbsp; ezitati sa ne contactati.</font></div>
+</div></div>
+
+</div>

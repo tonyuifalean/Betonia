@@ -1,0 +1,19 @@
+<table summary="Contact form fields">
+	    <tr>
+	    	<th>nume:</th>
+			<td><%= f.text_field(:nume)%></td>
+	    </tr>
+        <tr>
+        	<th>telefon:</th>
+			<td><%= f.text_field(:telefon)%></td>
+        </tr>
+		<tr>
+        	<th>email:</th>
+			<td><%= f.text_field(:email)%></td>
+        </tr>
+		<tr>
+        	<th>mesaj:</th>
+			<td><%= f.text_field(:mesaj)%></td>
+        </tr>
+</table>
+

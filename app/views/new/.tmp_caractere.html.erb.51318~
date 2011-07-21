@@ -1,0 +1,20 @@
+<div id="container">
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:0">
+         <%= image_tag('823880_25781191.jpg') %></div>
+
+<div id="g_shape1" style="position:absolute; overflow:hidden; left:0px; top:133px; width:823px; height:25px; z-index:2">
+         <%= image_tag('shape87972906.gif') %></div>
+
+<div id="text1" style="position:absolute; overflow:hidden; left:244px; top:170px; width:752px; height:431px; z-index:2">
+<div class="wpmd">
+<div><font face="HelveticaNeue ThinCond" class="ws36">Betonia&nbsp;&nbsp; </font><font face="HelvNueOutline" class="ws36">Betonia&nbsp; </font><font face="ISOCP" class="ws36">Betonia</font></div>
+<div><font face="ISOCTEUR" class="ws36">Betonia </font><font face="OCR A Extended" class="ws36">Betonia&nbsp; </font><font face="Ravie" class="ws36">Betonia&nbsp; </font><font face="Rockwell Extra Bold" class="ws36">Betonia </font><font face="SansSerif" class="ws36">Betonia&nbsp;&nbsp; </font><font face="Showcard Gothic" class="ws36">Betonia&nbsp;&nbsp;&nbsp; </font><font face="Snap ITC" class="ws36">Betonia&nbsp; </font><font face="Stencil" class="ws36">Betonia </font><font face="TechnicBold" class="ws36">Betonia&nbsp; </font><font face="Tempus Sans ITC" class="ws36">Betonia&nbsp;&nbsp; </font><font face="Agency FB" class="ws36">Betonia&nbsp;&nbsp;&nbsp; </font><font face="Century Gothic" class="ws36">Betonia&nbsp; </font></div>
+<div><font face="Chiller" class="ws36">Betonia&nbsp;&nbsp; </font><font face="CityBlueprint" class="ws36">Betonia&nbsp;&nbsp; </font><font face="Forte" class="ws36">Betonia&nbsp; </font><font face="Gill Sans Ultra Bold" class="ws36">Betonia</font></div>
+<div><font face="Helvetica Narrow" class="ws36"><BR></font></div>
+<div><font face="Snap ITC" class="ws36"><BR></font></div>
+</div></div>
+
+<%= render(:partial => "title")%>
+<%= render(:partial => "menu") %>
+
+</div>

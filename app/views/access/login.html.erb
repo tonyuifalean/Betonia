@@ -1,0 +1,41 @@
+
+<div id="container">
+
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:1">
+         <%= image_tag('823880_25781191.jpg') %></div>
+
+<%if !flash[:notice].blank? %>
+   <div class="notice">
+   <%= flash[:notice] %>
+   </div>
+<% end %>
+
+
+<div id="g_text1" style="position:absolute; overflow:hidden; left:520px; top:7px; width:330px; height:111px; z-index:3">
+<div class="wpmd">
+<div align=center><font color="#333333" face="HelveticaNeue ThinCond" class="ws48">B e t o n i a</font></div>
+<div align=center><font color="#333333" face="Century Gothic" class="ws20">idei din beton</font></div>
+</div></div>
+
+<div id="login" style="position:absolute; overflow:hidden; left:400px; top:200px; width:300px; height:200px; z-index:2">
+  <%= form_tag(:action => 'attempt_login') do %>
+  <table>
+    <tr>
+      <td><%= label_tag(:username) %></td>
+      <td><%= password_field_tag(:username) %></td>
+    </tr>
+    <tr>
+      <td><%= label_tag(:password) %></td>
+      <td><%= password_field_tag(:password) %></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><%= submit_tag("Log In") %></td>
+    </tr>
+  </table>
+  <% end %>
+</div>
+
+
+</div>
+

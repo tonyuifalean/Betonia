@@ -1,0 +1,40 @@
+<% @page_title = "Messages" %>
+<% @page_info = "Messages" %>
+
+
+
+<%= form_tag contact_path, :method => 'get', :id => "contact_search" do %>
+  <%= hidden_field_tag :direction, params[:direction]%>
+  <%= hidden_field_tag :sort, params[:sort]%>
+  <p>
+    <%= text_field_tag :search, params[:search] %>
+    <%= submit_tag "Search", :first_name => nil %>
+  </p>
+<% end %>
+
+
+<div class="message list">
+	<h2>Messages</h2>
+	
+	<table class="messages" summary="Filtered messages list">
+		<tr class="message header">
+			<th><%= sortable "first_name", "First Name" %></th>
+			<th><%= sortable "last_name", "Last Name" %></th>
+			<th><%= sortable "email", "Email" %></th>
+			<th><%= sortable "phone", "Phone" %></th>
+			<th>Message</th>
+		</tr>
+		<% @contacts.each do |contact|%>
+		<tr>
+			<td><%= contact.first_name %></td>
+			<td><%= contact.last_name %></td>
+	        <td><%= contact.email %></td>
+			<td><%= contact.phone %></td>
+     		<td><%= contact.qm %></td> 
+		</tr>
+    <% end %>
+	</table><br/><br/>
+	<div id='willp'><%= will_paginate @contacts %></div>
+</div>
+
+	

@@ -1,0 +1,62 @@
+<% @page_title = "Messages" %>
+<% @page_info = "Messages" %>
+
+<div class="message list">
+	<h2> Messages</h2>
+	
+	<table class="messages" summary="Contact list">
+		<tr class="header">
+			<th>First name</th>
+			<th>Last name</th>
+			<th>Email</th>
+			<th>Phone</th>
+			<th>Message</th>
+		</tr>
+		<% @contacts.each do |contact|%>
+		<tr>
+			<td><%= contact.first_name %></td>
+			<td><%= contact.last_name %></td>
+	        <td><%= contact.email %></td>
+			<td><%= contact.phone %></td>
+     		<td><%= contact.qm %></td> 
+		</tr>
+        <% end %>
+	</table>
+</div>
+
+
+<div class="contact search">
+	<h2>Search Contacts by: </h2>
+	
+	<%form_for(:contact, :url => {:action => 'messages'}) do |f|%>
+	
+    <%= render(:partial => "form2", :locals => {:f => f}) %>
+	
+	<div class="form-buttons">
+		<%=submit_tag("Search")%>
+	</div>
+	<%end%>
+</div>	
+
+<div class="message list filtered">
+	<h2> Messages filtered</h2>
+	
+	<table class="messages" summary="Contact list 2">
+		<tr class="header">
+			<th>First name</th>
+			<th>Last name</th>
+			<th>Email</th>
+			<th>Phone</th>
+			<th>Message</th>
+		</tr>
+		<% @contacts.each do |contact|%>
+		<tr>
+			<td><%= contact.first_name %></td>
+			<td><%= contact.last_name %></td>
+	        <td><%= contact.email %></td>
+			<td><%= contact.phone %></td>
+     		<td><%= contact.qm %></td> 
+		</tr>
+        <% end %>
+	</table>
+</div>

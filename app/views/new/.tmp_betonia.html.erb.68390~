@@ -1,0 +1,52 @@
+
+<div id="container">
+<div id="example" style="position:absolute; overflow:hidden; left:300px; top:170px; width:530px; height:430px; z-index:3">
+			<div id="slides">
+				<div class="slides_container">
+					<div class="slide">
+		                <%= image_tag('img1.jpg') %>     
+						<div class="caption" style="bottom:0">
+							<p>Blat de bucatarie - de la 400 RON/mp + TVA</p>
+						</div>
+					</div>
+					<div class="slide">
+                        <%= image_tag('img2.jpg') %> 
+						<div class="caption">
+							<p>Blat de bucatarie - de la 400 RON/mp + TVA</p>
+						</div>
+					</div>
+					<div class="slide">
+                         <%= image_tag('img3.jpg') %> 
+						<div class="caption">
+							<p>Placaj din beton - de la 45 RON/mp + TVA</p>
+						</div>
+					</div>
+					<div class="slide">
+                        <%= image_tag('img4.jpg') %> 
+						<div class="caption">
+							<p>Placaj din beton - de la 45 RON/mp + TVA</p>
+						</div>
+					</div>
+					<div class="slide">
+						<%= image_tag('img5.jpg') %> 
+						<div class="caption">
+							<p>Placaj din beton - de la 45 RON/mp + TVA</p>
+						</div>
+					</div>
+			
+				</div>
+			</div>
+		</div>
+
+
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:1">
+         <%= image_tag('823880_25781191.jpg') %></div>
+
+<div id="g_shape1" style="position:absolute; overflow:hidden; left:0px; top:133px; width:823px; height:25px; z-index:2">
+         <%= image_tag('shape87972906.gif') %></div>
+
+<%= render(:partial => "title") %>
+<%= render(:partial => "menu") %>
+</div>
+
+

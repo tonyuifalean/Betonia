@@ -1,0 +1,33 @@
+
+<div id="container">
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:0">
+         <%= image_tag('618462_86085382.jpg') %></div>
+
+<div id="g_shape1" style="position:absolute; overflow:hidden; left:0px; top:133px; width:823px; height:25px; z-index:2">
+         <%= image_tag('shape87972906.gif') %></div>
+
+<%= render(:partial => "title") %>
+<%= render(:partial => "menu") %>
+<%= render(:partial => "titledespre") %>
+
+
+<div id="text2" style="position:absolute; overflow:hidden; left:300px; top:223px; width:440px; height:350px; z-index:5">
+<div class="wpmd">
+<div align=justify><font face="Century Gothic" class="ws12">Definitie DEX</font></div>
+<div align=justify><font face="Century Gothic" class="ws12"><BR></font></div>
+<div align=justify><font face="Century Gothic"><B>BETONIA</B></font><font face="Century Gothic">, </font><font face="Century Gothic"><I>sf</I></font><font face="Century Gothic"> - 1) proiect privind constituirea unui trend in designul contemporan caracterizat prin folosirea exclusiva a betonului, fara a tine cont de realitatile obiective si subiective de dezvoltare a societatii umane; 2) intentie utopica, fantezista de a materializa obiectele doar din beton</font></div>
+<div align=justify><font face="Century Gothic" class="ws12"><BR></font></div>
+<div align=justify><font face="Century Gothic" class="ws12"><BR></font></div>
+<div align=justify><font face="Century Gothic" class="ws12">Despre echipa:</font></div>
+<div align=justify><font face="Century Gothic" class="ws12"><BR></font></div>
+<UL>
+<li><font face="Century Gothic">"Si pitulicea este mica, dar printre pasari e </font><font face="Century Gothic"><B><I>voinica</I></B></font><font face="Century Gothic">!"</font></li>
+<li><font face="Century Gothic">"Cine-i </font><font face="Century Gothic"><B><I>harnic</I></B></font><font face="Century Gothic"> si munceste, ori e prost, ori nu gandeste..."</font></li>
+<li><font face="Century Gothic">"</font><font face="Century Gothic"><B><I>Imaginatia</I></B></font><font face="Century Gothic"> ne poarta prin lumi care nu au existat niciodata. Insa fara ea nu putem ajunge nicaieri."</font></li>
+<li><font face="Century Gothic">"Felul meu de a glumi este sa spun </font><font face="Century Gothic"><B><I>adevarul</I></B></font><font face="Century Gothic">. Aceasta este cea mai nostima gluma din lume."</font></li>
+<li><font face="Century Gothic">"Fara </font><font face="Century Gothic"><B><I>umor</I></B></font><font face="Century Gothic"> traiesc numai prostii."</font></li>
+</UL>
+</div></div>
+
+</div>
+

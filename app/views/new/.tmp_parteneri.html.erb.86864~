@@ -1,0 +1,25 @@
+
+<div id="container">
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:0">
+               <%= image_tag('809022_22306219.jpg') %></div>
+
+<div id="g_shape1" style="position:absolute; overflow:hidden; left:0px; top:133px; width:823px; height:25px; z-index:1">
+               <%= image_tag('shape87972906.gif') %></div>
+
+<%= render(:partial => "menu") %>
+<%= render(:partial => "title") %>
+
+<div id="text1" style="position:absolute; overflow:hidden; left:268px; top:223px; width:560px; height:307px; z-index:4">
+<div class="wpmd">
+<div align=justify><font face="Century Gothic">Suntem intr-o continua cautare de parteneri. Daca activati in domeniul arhitecturii, amenajarilor interioare si exterioare, productiei de mobilier personalizat, etc. nu ezitati sa ne contactati. O intrebare si o parere in plus nu costa niciodata nimic, asa ca nu credem ca ar fi foarte mare deranjul. Daca aveti un proiect sau o idee din beton, s-ar putea sa o turnam noi pentru dumneavoastra. </font></div>
+<div align=justify><font face="Century Gothic"><BR></font></div>
+<div align=justify><font face="Century Gothic"><BR></font></div>
+<div align=justify><font face="Century Gothic">Ce nu cautam poate fi definit de urmatoarele:</font></div>
+<div align=justify><font face="Century Gothic"><BR></font></div>
+<div align=justify><font face="Century Gothic">-&nbsp;&nbsp;&nbsp; "Clientul meu ar vrea sa se mute ieri si a uitat sa-si comande gresia, mobila, blatul de bucatarie si instalatiile. Credeti ca puteti turna astazi ceva?" - noi ne dorim ca proiectele noastre sa fie planificate si nu fuserite</font></div>
+<div align=justify><font face="Century Gothic"><BR></font></div>
+<div align=justify><font face="Century Gothic">-&nbsp;&nbsp;&nbsp; "Ahh... dar eu am gasit mult mai ieftin in alta parte..." - foarte probabil sa fie asa, piata este concurentiala, dar fiecare vaca da altfel de lapte, iar al nostru atat costa</font></div>
+</div></div>
+
+</div>
+

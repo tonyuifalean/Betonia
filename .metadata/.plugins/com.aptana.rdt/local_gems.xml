@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gems>
+	<gem>
+		<name>json_pure</name>
+		<version>1.5.3</version>
+		<description>JSON Implementation for Ruby</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>sprockets</name>
+		<version>2.0.0.beta.10</version>
+		<description>Rack-based asset packaging system</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>activemodel</name>
+		<version>3.1.0.beta1</version>
+		<description>A toolkit for building modeling frameworks (part of Rails).</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>activerecord</name>
+		<version>3.1.0.beta1</version>
+		<description>Object-relational mapper framework (part of Rails).</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rack</name>
+		<version>1.2.3</version>
+		<description>a modular Ruby webserver interface</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>ruby-openid</name>
+		<version>2.1.8</version>
+		<description>A library for consuming and serving OpenID identities.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>facebook_share</name>
+		<version>0.0.5</version>
+		<description>A Facebook Share button for convenient re-usage</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rubyntlm</name>
+		<version>0.1.1</version>
+		<description>Ruby/NTLM library.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rack-test</name>
+		<version>0.5.7</version>
+		<description>Simple testing API built on Rack</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>jquery-rails</name>
+		<version>1.0.12</version>
+		<description>Use jQuery with Rails 3</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>sass</name>
+		<version>3.1.3</version>
+		<description>A powerful but elegant CSS compiler that makes CSS fun again.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>sqlite3</name>
+		<version>1.3.3</version>
+		<description>This module allows Ruby programs to interface with the SQLite3 database engine (http://www.sqlite.org)</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>oauth2</name>
+		<version>0.4.1</version>
+		<description>A Ruby wrapper for the OAuth 2.0 protocol.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>oa-oauth</name>
+		<version>0.2.6</version>
+		<description>OAuth strategies for OmniAuth.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>mail</name>
+		<version>2.2.19</version>
+		<description>Mail provides a nice Ruby DSL for making, sending and reading emails.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rack</name>
+		<version>1.3.0</version>
+		<description>a modular Ruby webserver interface</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>actionpack</name>
+		<version>3.0.9</version>
+		<description>Web-flow and rendering framework putting the VC in MVC (part of Rails).</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>polyglot</name>
+		<version>0.3.1</version>
+		<description>Allows custom language loaders for specified file extensions to be hooked into require</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>oa-more</name>
+		<version>0.2.6</version>
+		<description>Additional strategies for OmniAuth.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>nokogiri</name>
+		<version>1.4.6</version>
+		<description>Nokogiri (é?¸) is an HTML, XML, SAX, and Reader parser</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>activerecord</name>
+		<version>3.0.9</version>
+		<description>Object-relational mapper framework (part of Rails).</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rack-mount</name>
+		<version>0.8.1</version>
+		<description>Stackable dynamic tree based Rack router</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>thor</name>
+		<version>0.14.6</version>
+		<description>A scripting framework that replaces rake, sake and rubigen</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>actionpack</name>
+		<version>3.1.0.beta1</version>
+		<description>Web-flow and rendering framework putting the VC in MVC (part of Rails).</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rack-mount</name>
+		<version>0.6.14</version>
+		<description>Stackable dynamic tree based Rack router</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>i18n</name>
+		<version>0.6.0</version>
+		<description>New wave Internationalization support for Ruby</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>addressable</name>
+		<version>2.2.4</version>
+		<description>URI Implementation</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>railties</name>
+		<version>3.1.0.beta1</version>
+		<description>Tools for creating, working with, and running Rails applications.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>actionmailer</name>
+		<version>3.0.9</version>
+		<description>Email composition, delivery, and receiving framework (part of Rails).</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>bcrypt-ruby</name>
+		<version>2.1.4</version>
+		<description>OpenBSD&apos;s bcrypt() password hashing algorithm.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>oa-openid</name>
+		<version>0.2.6</version>
+		<description>OpenID strategies for OmniAuth.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>tilt</name>
+		<version>1.3.2</version>
+		<description>Generic interface to multiple Ruby template engines</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rails</name>
+		<version>3.0.9</version>
+		<description>Full-stack web application framework.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>sqlite3-ruby</name>
+		<version>1.2.1</version>
+		<description>This module allows Ruby programs to interface with the SQLite3 database engine (http://www.sqlite.org)</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>gem_plugin</name>
+		<version>0.2.3</version>
+		<description>A plugin system based on rubygems that uses dependencies only</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>oauth</name>
+		<version>0.4.5</version>
+		<description>OAuth Core Ruby implementation</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rdoc</name>
+		<version>3.8</version>
+		<description>RDoc produces HTML and command-line documentation for Ruby projects</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>railties</name>
+		<version>3.0.9</version>
+		<description>Tools for creating, working with, and running Rails applications.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>oa-enterprise</name>
+		<version>0.2.6</version>
+		<description>Enterprise strategies for OmniAuth.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>activesupport</name>
+		<version>3.0.9</version>
+		<description>A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>ansi</name>
+		<version>1.2.5</version>
+		<description>ANSI codes at your fingertips!</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>activeresource</name>
+		<version>3.0.9</version>
+		<description>REST modeling framework (part of Rails).</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>abstract</name>
+		<version>1.0.0</version>
+		<description>a library which enable you to define abstract method in Ruby</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>omniauth</name>
+		<version>0.2.6</version>
+		<description>Rack middleware for standardized multi-provider authentication.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>mongrel</name>
+		<version>1.1.5</version>
+		<description>A small fast HTTP library and server that runs Rails, Camping, Nitro and Iowa apps.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>arel</name>
+		<version>2.1.3</version>
+		<description>Arel is a SQL AST manager for Ruby</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>pyu-ruby-sasl</name>
+		<version>0.0.3.3</version>
+		<description>SASL client library</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>treetop</name>
+		<version>1.4.9</version>
+		<description>A Ruby-based text parsing and interpretation DSL</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>hike</name>
+		<version>1.1.0</version>
+		<description>Find files in a set of paths</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>oa-basic</name>
+		<version>0.2.6</version>
+		<description>HTTP Basic strategies for OmniAuth.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>mysql</name>
+		<version>2.7.3</version>
+		<description>This is the MySQL API module for Ruby</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rdoc</name>
+		<version>2.5.8</version>
+		<description>RDoc produces HTML and command-line documentation for Ruby projects</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>mysql</name>
+		<version>2.8.1</version>
+		<description>This is the MySQL API module for Ruby</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>multipart-post</name>
+		<version>1.1.2</version>
+		<description>Creates a multipart form post accessory for Net::HTTP.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>coffee-script-source</name>
+		<version>1.1.1</version>
+		<description>The CoffeeScript Compiler</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>uglifier</name>
+		<version>1.0.0</version>
+		<description>Ruby wrapper for UglifyJS JavaScript compressor</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>coffee-script</name>
+		<version>2.2.0</version>
+		<description>Ruby CoffeeScript Compiler</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>bundler</name>
+		<version>1.0.15</version>
+		<description>The best way to manage your application&apos;s dependencies</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>multi_json</name>
+		<version>1.0.3</version>
+		<description>A gem to provide swappable JSON backends.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>activemodel</name>
+		<version>3.0.9</version>
+		<description>A toolkit for building modeling frameworks (part of Rails).</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>faraday</name>
+		<version>0.6.1</version>
+		<description>HTTP/REST API client library.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>multi_xml</name>
+		<version>0.2.2</version>
+		<description>A generic swappable back-end for XML parsing</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>activeresource</name>
+		<version>3.1.0.beta1</version>
+		<description>REST modeling framework (part of Rails).</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rack-mount</name>
+		<version>0.7.4</version>
+		<description>Stackable dynamic tree based Rack router</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rdoc</name>
+		<version>3.6.1</version>
+		<description>RDoc produces HTML and command-line documentation for Ruby projects</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>minitest</name>
+		<version>2.3.1</version>
+		<description>minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>facebooker</name>
+		<version>1.0.75</version>
+		<description>Facebooker is a Ruby wrapper over the Facebook[http://facebook.com] {REST API}[http://wiki.developers.facebook.com/index.php/API]</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>mime-types</name>
+		<version>1.16</version>
+		<description>Manages a MIME Content-Type database that will return the Content-Type for a given filename.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>builder</name>
+		<version>3.0.0</version>
+		<description>Builders for MarkUp.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rails</name>
+		<version>3.1.0.beta1</version>
+		<description>Full-stack web application framework.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>fastthread</name>
+		<version>1.0.1</version>
+		<description>Optimized replacement for thread.rb primitives</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>sqlite3-ruby</name>
+		<version>1.3.3</version>
+		<description>This module allows Ruby programs to interface with the SQLite3 database engine (http://www.sqlite.org)</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>ruby-debug-ide</name>
+		<version>0.4.5</version>
+		<description>IDE interface for ruby-debug.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>i18n</name>
+		<version>0.5.0</version>
+		<description>New wave Internationalization support for Ruby</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>erubis</name>
+		<version>2.7.0</version>
+		<description>a fast and extensible eRuby implementation which supports multi-language</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rack-cache</name>
+		<version>1.0.2</version>
+		<description>HTTP Caching for Rack</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>ruby-openid-apps-discovery</name>
+		<version>1.2.0</version>
+		<description>Google Apps support for ruby-openid</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>tzinfo</name>
+		<version>0.3.29</version>
+		<description>Daylight-savings aware timezone library</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rack-openid</name>
+		<version>1.3.1</version>
+		<description>Provides a more HTTPish API around the ruby-openid library</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>ruby-debug-base</name>
+		<version>0.10.3</version>
+		<description>Fast Ruby debugger - core component</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rack-test</name>
+		<version>0.6.0</version>
+		<description>Simple testing API built on Rack</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>tzinfo</name>
+		<version>0.3.28</version>
+		<description>Daylight-savings aware timezone library</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>linecache</name>
+		<version>0.43</version>
+		<description>Read file with caching</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>builder</name>
+		<version>2.1.2</version>
+		<description>Builders for MarkUp.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>minitest</name>
+		<version>1.6.0</version>
+		<description>minitest provides a complete suite of testing facilities supporting TDD, BDD, mocking, and benchmarking</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>erubis</name>
+		<version>2.6.6</version>
+		<description>a fast and extensible eRuby implementation which supports multi-language</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>activesupport</name>
+		<version>3.1.0.beta1</version>
+		<description>A toolkit of support libraries and Ruby core extensions extracted from the Rails framework.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>mail</name>
+		<version>2.3.0</version>
+		<description>Mail provides a nice Ruby DSL for making, sending and reading emails.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>arel</name>
+		<version>2.0.10</version>
+		<description>Arel is a SQL AST manager for Ruby</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rake</name>
+		<version>0.8.7</version>
+		<description>Ruby based make-like utility.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rack-ssl</name>
+		<version>1.3.2</version>
+		<description>Force SSL/TLS in your app.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>turn</name>
+		<version>0.8.2</version>
+		<description>Test::Unit Reporter (New) -- new output format for Test::Unit</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rake</name>
+		<version>0.9.2</version>
+		<description>Ruby based make-like utility.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>oa-core</name>
+		<version>0.2.6</version>
+		<description>Core strategies for OmniAuth.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>execjs</name>
+		<version>1.2.0</version>
+		<description>Run JavaScript code from Ruby</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>net-ldap</name>
+		<version>0.2.2</version>
+		<description>Net::LDAP for Ruby (also called net-ldap) implements client access for the Lightweight Directory Access Protocol (LDAP), an IETF standard protocol for accessing distributed directory services</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>rest-client</name>
+		<version>1.6.3</version>
+		<description>Simple HTTP and REST client for Ruby, inspired by microframework syntax for specifying actions.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>cgi_multipart_eof_fix</name>
+		<version>2.5.0</version>
+		<description>Fix an exploitable bug in CGI multipart parsing.</description>
+		<platform>ruby</platform>
+	</gem>
+	<gem>
+		<name>actionmailer</name>
+		<version>3.1.0.beta1</version>
+		<description>Email composition, delivery, and receiving framework (part of Rails).</description>
+		<platform>ruby</platform>
+	</gem>
+</gems>

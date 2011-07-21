@@ -1,0 +1,203 @@
+
+#example {
+	
+	
+	position:relative;
+}
+
+#example1 {
+
+	position:relative;
+}
+#example2 {
+	
+	
+	position:relative;
+}
+
+#example3 {
+	
+
+	position:relative;
+}
+
+/*
+	Slideshow
+*/
+
+#slides {
+	position:inherit;
+	top:0px;
+	left:0px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+.slides_container {
+	width:530px;
+	hight:410px;
+	overflow:hidden;
+	position:inherit;
+	display:inline;
+}
+
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+.slides_container div.slide {
+	width:530px;
+	height:410px;
+	display:block;
+}
+
+.slides_container div.slide1{
+	width:400px;
+	height:300px;
+	display:block;
+}
+
+.slides_container div.slide2{
+	width:444px;
+	height:200px;
+	display:block;
+}
+.slides_container div.slide3{
+	width:400px;
+	height:300px;
+	display:block;
+}
+
+
+/*
+	Pagination
+*/
+
+.pagination {
+	float:left;
+	padding-left: 0px;
+    margin:0px auto 0;
+	width:300px;
+	
+}
+
+.pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+.pagination li a {
+	display:block;
+	width:12px;
+	height:0px;
+	padding-top:12px;
+	background-image:url(../images/pagination.png);
+	background-position:0 0 ;
+	float:left;
+	overflow:hidden;
+}
+
+.pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Caption
+*/
+
+.caption {
+	z-index: 500;
+	position:absolute;
+	bottom:0px;
+	height:50px;
+	width:530px;
+	padding:0px 100px 0px 50px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	font-size:1.3em;
+	line-height:1.33ex;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
+.caption1 {
+	z-index: 500;
+	position:absolute;
+	bottom:0px;
+	height:50px;
+	width:530px;
+	padding:0px 100px 0px 50px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	font-size:1.3em;
+	line-height:1.33ex;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+.caption2 {
+	z-index: 500;
+	position:absolute;
+	bottom:0px;
+	height:30px;
+	width:294px;
+	padding:0px 100px 0px 50px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	font-size:0.8em;
+	line-height:1.33ex;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
+.caption3 {
+	z-index: 500;
+	position:absolute;
+	bottom:0px;
+	height:50px;
+    width: 290px;
+	padding:0px 100px 0px 10px;
+	background:#000;
+	background:rgba(0,0,0,.5);
+	font-size:1.1em;
+	line-height:1.33ex;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+
+.caption4 {
+	z-index: 500;
+	position:absolute;
+	bottom:0px;
+	height:50px;
+	width:530px;
+	padding:0px 100px 0px 50px;
+	background:#000;
+	background:rgba(0,0,0,0.5);
+	font-size:1.3em;
+	line-height:1.33ex;
+	color:#fff;
+	border-top:1px solid #000;
+	text-shadow:none;
+}
+/*
+	
+/*
+	Anchors
+*/
+

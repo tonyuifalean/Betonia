@@ -1,0 +1,27 @@
+<html lang = "en">
+  <head>
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	 <title>Proiect Iunie | <%= @page_title || 'Admin Area'%></title>
+	 <meta name="author" content="Kevin Skoglund">
+	 <%= stylesheet_link_tag('admin', 'admin2', :media => 'all') %>
+    
+  </head>
+  <body>
+  	 <div id="header">
+  	    <h1>Proiect Iunie | <%= @page_info %></h1>	
+  	 </div>
+	 <div id="main">
+	 	<%if !flash[:notice].blank? %>
+		<div class="notice">
+			<%= flash[:notice] %>
+		</div>
+		<% end %>
+	    <div id="content">
+	    	<%= yield %>
+	    </div>
+	 </div>
+	 <div id="footer">
+	 	<p id="copyright">&copy; lynda.com / Uifalean Dragos</p>
+	 </div>
+  </body>
+</html>

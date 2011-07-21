@@ -1,0 +1,146 @@
+<div id="container">
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:0">
+        <%= image_tag('645667_18248803.jpg') %></div>
+
+<div id="g_shape1" style="position:absolute; overflow:hidden; left:0px; top:133px; width:823px; height:25px; z-index:2">
+         <%= image_tag('shape87972906.gif') %></div>
+		 
+<%= render( :partial => "title") %>		 
+<%= render( :partial => "menu")%>
+<%= render( :partial => "titleproiecte") %>
+
+<div id="example3" style="position:absolute; overflow:hidden; left:300px; top:250px; width:444px; height:330px; z-index:3">
+			<div id="slides">
+				<div class="slides_container">
+					<div class="slide3">
+		                <%= image_tag('Alb_nsp.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Alb</p>
+						</div>
+					</div>
+					
+					<div class="slide3">
+		                <%= image_tag('Alb_agr.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Alb - agregate expuse</p>
+						</div>
+					</div>
+			
+				    <div class="slide3">
+		                <%= image_tag('Albastru_nsp.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Albastru ultramarin</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Albastru_agr.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Albastru ultramarin - agregate expuse</p>
+						</div>
+					</div>
+				    <div class="slide3">
+		                <%= image_tag('Bej_nsp.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Bej</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Bej_agr.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Bej - agregate expuse</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Verde_nsp.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Verde</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Verde_agr.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Verde - agregate expuse</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Portocaliu_nsp.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Portocaliu</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Verde_nsp.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Maro</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Caramiziu_nsp.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Caramiziu</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Gri_agr.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Gri - agregate expuse</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Agregateflorescente.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Agregate florescente</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Galben_albastru.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Galben si Albastru ultramarin</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Galben_verde.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Galben & Verde</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Maro_presat.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Maro - textura presata</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Portocaliu_nsp_sticla.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Portocaliu - agregate sticla</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Gri_presat.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Gri - textura presata</p>
+						</div>
+					</div>
+					<div class="slide3">
+		                <%= image_tag('Gri_presat_florescent.jpg') %>     
+						<div class="caption3" style="bottom:0">
+							<p>Gri -textura poroasa + agregate florescente</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+<div id="text1" style="position:absolute; overflow:hidden; left:321px; top:572px; width:388px; height:19px; z-index:6">
+<div class="wpmd">
+<div><font face="Century Gothic" class="ws8">!!! culorile sunt aproximative, pentru detalii va rugam sa ne contactati</font></div>
+</div></div>
+
+<div id="text2" style="position:absolute; overflow:hidden; left:243px; top:204px; width:569px; height:35px; z-index:7">
+<div class="wpmd">
+<div align=justify><font face="Century Gothic" class="ws8">Pentru a va face o idee asupra posibilitatilor de combinare a culorilor si texturilor va rugam sa derulati galeria noastra de mostre. In cazul in care aveti o alta </font><font face="Century Gothic" class="ws8"><I>idee din beton</I></font><font face="Century Gothic" class="ws8">, nu&nbsp; ezitati sa ne contactati.</font></div>
+</div></div>
+
+</div>

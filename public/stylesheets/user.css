@@ -1,0 +1,105 @@
+/* Admin stylesheet          */
+/* loads after public.css    */
+
+/*Structure */
+#content {padding-left: 0; padding-right:0; }
+#content h2 {padding-left : 30px; text-align: center; }
+
+
+
+.clear {
+   clear: both;
+} 
+
+.login form {margin: 50px 100px; border-radius:25px border: 3px solid #0000FF;}
+.contactf form {padding: 50px 50px; float: left; margin: 30px 100px; width: 600px;
+                  border: 3px solid #0000FF  ; text-align:right; }
+
+.menu .identity { text-align: center; bacbackground: #8EE5EE}
+.menu ul { margin: 50px 100px; list-style: none; }
+.menu ul li { margin-bottom: 5em; }
+
+.menu2 .identity { text-align: center; background:#8EE5EE }
+.menu2 ul { margin: 50px 100px; list-style: none; }
+.menu2 ul li { margin-bottom: 5em; }
+
+table.messages{
+	border-colapse: collapse;
+
+}
+
+.messages td, .messages th{
+	padding: 4px 10px;
+	border: solid 1px #AAA;
+}
+
+.messages th .current {
+  padding-right: 12px;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.messages th .asc {
+  background-image: url(/images/up_arrow.gif);
+}
+
+.messages th .desc {
+  background-image: url(/images/down_arrow.gif);
+}
+
+
+a { text-decoration: none; }
+a.action :hover { text-decoration: underline; }
+a.action2 :hover { text-decoration: underline;}
+/* large action buttons */
+a.action { float: left; padding: 2px 5px; margin: 0 0 1em 1em;
+           background: #94B26F; color: #4C2516; border: 1px solid #4C2516;
+		   text-decoration: none; font-size: 0.8em; text-align: center; }
+a.action:hover { background: #B6D491; }
+
+a.action2 { float: left; padding: 2px 5px; margin: 0 0 1em 1em;
+           background: #94B26F; color: #4C2516; border: 1px solid #8EE5EE;
+		   text-decoration: none; font-size: 0.8em; text-align: center; }
+a.action2:hover { background: #B6D491; }
+
+/* small action buttons */
+.actions { width: 200px; background: #8EE5EE }
+.actions a.action { float: left; min-width: 3.5em; padding: 1px 2px; margin: 2px 5px;
+                    font-size: 0.7em; }
+
+.action2 { width: 200px; background: #0000FF }
+.action2 a.action { float: left; min-width: 19em; padding: 2px 7px; margin: 2px 4px;
+                    font-size: 0.7em; background: #8EE5EE }					
+/* listing contacts  */
+.show { width: 200px; background: #8EE5EE }
+.shwo a.action { float: left; min-width: 3.5em; padding: 1px 2px; margin: 2px 5px;
+                    font-size: 0.7em; }							
+/* CRUD	*/
+.notice { height: 1.25em; padding: 0.5em; text-align: center; background: #B6D491; color: #4C2516; }
+.back-link { font-size: 0.8em; margin-bottom: 1em; }
+.form-buttons {text-align:center; margin: 0em 4em;}
+
+.list table {clear: both; width: 100%; }
+.list tr td { border: 1px solid #666666; }
+.show table { clear: both; margin: 0 200px; width: 500px; }				
+.show table.wide { width: 800px; margin: 0 50px; }					 
+.show table tr th { white-space: nowrap; padding-right: 5px; }
+.show table tr td { border: 5px solid #666666; }
+.edit table, .new table { margin: 0 auto; }
+
+.odd { background: #E5CE69; }
+.even { background: none; }
+
+.section + .section { padding-top: 0.5em; margin-top: 0.5em;
+                     border-top: 1px dotted #666666; }
+					 
+/* Errors */
+.fieldWithErrors { display: table; padding: 2px; background-color: #AA0000; }
+#errorExplanation { width: 400px; padding: 0; margin: 0 auto 1.5 em;
+      border: 1px solid #AA0000; background-color: #FFFFFF; font-size: 12px; }
+#errorExplanation h2 { font-weight: bold; font-size:12px;
+                       padding: 5px 5px 5px 15px; margin: 0; width: 380px;
+      				   background-color: #AA0000; color: #FFFFFF; }
+#errorExplanation p { color: #333333; margin: 0; padding: 3px 0.5em; }	
+#errorExplanation ul { margin-top: 0; }
+#errorExplanation ul li { list-style: square;}  		 			 

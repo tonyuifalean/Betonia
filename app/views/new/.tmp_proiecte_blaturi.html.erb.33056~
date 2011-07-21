@@ -1,0 +1,63 @@
+
+<div id="container">
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:0">
+        <%= image_tag('645667_18248803.jpg') %></div>
+
+<div id="g_shape1" style="position:absolute; overflow:hidden; left:0px; top:133px; width:823px; height:25px; z-index:2">
+         <%= image_tag('shape87972906.gif') %></div>
+		 
+<%= render( :partial => "title") %>
+<%= render( :partial => "menu") %>
+<%= render( :partial => "titleproiecte") %>
+
+<div id="text1" style="position:absolute; overflow:hidden; left:245px; top:201px; width:214px; height:178px; z-index:5">
+<div class="wpmd">
+<div align=justify><font face="Century Gothic" class="ws8"><B><I>Pentru realizarea unui blat de bucatarie din beton sunt necesari 8 pasi:</I></B></font></div>
+<div align=justify><font face="Century Gothic" class="ws8">1. Stabilirea culorii, texturii si a insertiilor pentru realizarea unei mostre</font></div>
+<div align=justify><font face="Century Gothic" class="ws8">2. Realizarea machetei</font></div>
+<div align=justify><font face="Century Gothic" class="ws8">3. Construirea cofrajului</font></div>
+<div align=justify><font face="Century Gothic" class="ws8">4. Turnarea blatului</font></div>
+<div align=justify><font face="Century Gothic" class="ws8">5. Decofrarea blatului</font></div>
+<div align=justify><font face="Century Gothic" class="ws8">6. Prelucrarea mecanica a texturii</font></div>
+<div align=justify><font face="Century Gothic" class="ws8">7. Sigilarea blatului</font></div>
+<div align=justify><font face="Century Gothic" class="ws8">8. Transportul si montajul blatului </font></div>
+</div></div>
+
+<div id="text2" style="position:absolute; overflow:hidden; left:481px; top:201px; width:341px; height:180px; z-index:6">
+<div class="wpmd">
+<div><font face="Century Gothic" class="ws8"><B><I>Cat costa?</I></B></font></div>
+<div align=justify><font face="Century Gothic" class="ws8">Preturile incep de la </font><font face="Century Gothic" class="ws8"><B>400 RON/mp + TVA</B></font><font face="Century Gothic" class="ws8"> </font></div>
+<div align=justify><font face="Century Gothic" class="ws8"><BR></font></div>
+<div align=justify><font face="Century Gothic" class="ws8"><B><I>Avantaje:</I></B></font></div>
+<div><font face="Century Gothic" class="ws8">- practic si expresiv in acelasi timp</font></div>
+<div><font face="Century Gothic" class="ws8">- cromatica infinita</font></div>
+<div><font face="Century Gothic" class="ws8">- poate fi turnat in orice forma</font></div>
+<div><font face="Century Gothic" class="ws8">- poate fi frezat, slefuit si lustruit pentru a obtine orice textura</font></div>
+<div><font face="Century Gothic" class="ws8">- poate fi personalizat prin inserarea de roci, fosile, piese metalice, etc.</font></div>
+</div></div>
+
+<div id="flash1" style="position:absolute; overflow:hidden; left:303px; top:400px; width:444px; height:200px; z-index:7">
+<script type="text/javascript">
+AC_RunFlashContent("id","flash1","width","444","height","200","quality","high","autoplay","true","loop","true","wmode","window","codebase","http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab","pluginspage","http://www.macromedia.com/go/getflashplayer","src","images/blat.swf");
+</script>
+<noscript>
+<object classid="clsid:D27CDB6E-AE6D-11CF-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" width=444 height=200>
+<param name="movie" value="images/blat.swf">
+<param name="quality" value="high">
+<param name="loop" value="true">
+<param name="wmode" value="window">
+<param name="autoplay" value="true">
+<!--[if !IE]>-->
+<object data="images/blat.swf" width="444" height="200" type="application/x-shockwave-flash">
+<param name="pluginurl" value="http://www.macromedia.com/go/getflashplayer">
+<param name="quality" value="high">
+<param name="loop" value="true">
+<param name="wmode" value="window">
+<param name="autoplay" value="true">
+</object>
+<!--<![endif]-->
+</object>
+</noscript>
+</div>
+
+</div>

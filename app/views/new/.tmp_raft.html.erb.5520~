@@ -1,0 +1,23 @@
+
+<div id="container">
+<div id="image1" style="position:absolute; overflow:hidden; left:0px; top:0px; width:214px; height:600px; z-index:0">
+       <%= image_tag('855037_57926799.jpg') %> </div>
+
+<div id="g_shape1" style="position:absolute; overflow:hidden; left:0px; top:133px; width:823px; height:25px; z-index:1">
+       <%= image_tag('shape87972906.gif') %></div>
+
+
+<%= render(:partial => "menu") %>
+<%= render(:partial => "title") %>
+
+
+<div id="text1" style="position:absolute; overflow:hidden; left:244px; top:213px; width:579px; height:40px; z-index:4">
+<div class="wpmd">
+<div align=justify><font face="Century Gothic">Ar fi vorba de clasica "Revin in 15 minute", dar adevarul este ca inca incercam sa impacam Augustii pe rafturile noastre. Magazinul online va fi disponibil in curand.</font></div>
+</div></div>
+
+<div id="image2" style="position:absolute; overflow:hidden; left:243px; top:283px; width:580px; height:158px; z-index:5">
+        <%= image_tag('Augusti.jpg') %></div>
+
+</div>
+

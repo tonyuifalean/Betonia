@@ -1,0 +1,22 @@
+<div id="formular" style="position:absolute; overflow:hidden; left:360px; top:380px; width:215px; height:200px; z-index:9">
+    <%form_for(@contactus, :url => {:action => 'create'}) do |f|%>
+    <table summary="Contact form fields">
+	
+        <tr>
+			<td><%= f.text_field :nume %></td>
+        </tr>
+		<tr>
+			<td><%= f.text_field :telefon %></td>
+        </tr>
+		<tr>
+			<td><%= f.text_field :email %></td>
+        </tr>
+		<tr>
+			<td><%= f.text_field :mesaj %></td>
+        </tr>
+     </table>
+	 <div id="buttons" style="float:right; z-index:20">
+		<%=submit_tag("Trimiteti")%>
+     </div>
+	<%end%>
+</div>	
